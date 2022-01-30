@@ -6,7 +6,6 @@
 |------------------|-------|------|-------|
 | radial_layout.py | 48    | 0    | 100%  |
 | TOTAL            | 48    | 0    | 100%  |
-|                  |       |      |       |
 
 <br>
 Calculated using coverage.py.
