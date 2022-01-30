@@ -2,11 +2,11 @@
 
 ## Test coverage:
 
-| Name             | Stmts | Miss | Cover |   |
-|------------------|-------|------|-------|---|
-| radial_layout.py | 48    | 0    | 100%  |   |
-| TOTAL            | 48    | 0    | 100%  |   |
-|                  |       |      |       |   |
+| Name             | Stmts | Miss | Cover |
+|------------------|-------|------|-------|
+| radial_layout.py | 48    | 0    | 100%  |
+| TOTAL            | 48    | 0    | 100%  |
+|                  |       |      |       |
 
 <br>
 Calculated using coverage.py.
