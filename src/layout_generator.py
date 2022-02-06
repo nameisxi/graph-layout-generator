@@ -4,7 +4,7 @@ from layouts.radial_layout import RadialLayout
 class LayoutGenerator:
     def __init__(self, layout_type='radial'):
         """
-        Creates a layout generator that can be used to create layouts once 
+        Creates a layout generator that can be used to create layouts once
         or more.
         
         Parameters:
@@ -16,14 +16,14 @@ class LayoutGenerator:
 
     def create_layout(self, graph):
         """
-        Creates a layout corresponding to the given layout type by 
+        Creates a layout corresponding to the given layout type by
         adding coordinates to the graph that is inputted into this function.
         
         Parameters:
             graph (dict): Dictionary representation of a graph
 
         Returns:
-            updated_graph (dict): The same dictionary representation as 
+            updated_graph (dict): The same dictionary representation as
             the inputted graph (dict), but with added coordinates
 
         """

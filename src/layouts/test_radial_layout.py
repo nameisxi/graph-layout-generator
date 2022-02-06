@@ -190,8 +190,14 @@ class TestRadialLayout(unittest.TestCase):
         self.assertEqual(self.rl_1.x_coordinates, [])
         self.assertEqual(self.rl_1.y_coordinates, [])
 
-        self.assertEqual(self.rl_2.x_coordinates, [0, 0.07957747154594769, -0.15915494309189535, 0.07957747154594756])
-        self.assertEqual(self.rl_2.y_coordinates, [0, 0.13783222385544802, 1.9490859162596877e-17, -0.13783222385544808])
+        self.assertEqual(
+            self.rl_2.x_coordinates, 
+            [0, 0.07957747154594769, -0.15915494309189535, 0.07957747154594756]
+        )
+        self.assertEqual(
+            self.rl_2.y_coordinates, 
+            [0, 0.13783222385544802, 1.9490859162596877e-17, -0.13783222385544808]
+        )
 
         self.assertEqual(self.rl_3.x_coordinates, 
             [

@@ -6,8 +6,7 @@ from layout_generator import LayoutGenerator
 
 def read_graph(file_path):
     """
-    Reads a graph from a JSON file based on the given file path
-    
+    Reads a graph from a JSON file based on the given file path.
     Parameters:
         file_path (str): Path to the JSON file containing the graph
 
@@ -21,16 +20,15 @@ def read_graph(file_path):
 
     try:
         # Attempt to open the JSON file containing the graph
-        with open(file_path) as file:
+        with open(file_path, encoding='UTF-8') as file:
             return json.load(file)
     except Exception as e:
         print("While trying to read the graph, the following exception occured:")
         print(e)
 
-
 def main():
-    # Get the path to the JSON file that defines the structure of the graph 
-    # that the user wants to generate a layout for. Then, read the graph. 
+    # Get the path to the JSON file that defines the structure of the graph
+    # that the user wants to generate a layout for. Then, read the graph.
     print("-"*50)
     print()
     file_path = input("Graph file path (press Enter to use the example graph): ")
@@ -41,7 +39,7 @@ def main():
     layout_generator = LayoutGenerator()
     updated_graph = layout_generator.create_layout(graph)
 
-    # Print the updated graph, that contains the coordinates, to the user 
+    # Print the updated graph, that contains the coordinates, to the user
     print()
     print("-"*50)
     print("Graph with coordinates:")
