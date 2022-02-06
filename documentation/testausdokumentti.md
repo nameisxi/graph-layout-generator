@@ -8,7 +8,7 @@
 
 ### Mitä on testattu, miten tämä tehtiin?
 
-Koodissa testaus käsittyy pääasiassa /src/layouts/ kansion sisältöön, silla muu koodi liittyy käytännössa käyttöliittymään. Täma kansio sisältää ohjelman layout algoritmit, joita toistaiseksi on vain yksi: radial_layout.py.
+Koodissa testaus keskittyy pääasiassa /src/layouts/ kansion sisältöön, silla muu koodi liittyy käytännössa vain käyttöliittymään. Täma kansio sisältää ohjelman layout algoritmit, joita toistaiseksi on vain yksi: radial_layout.py.
 <br>
 Radial_layout.py jakautuu kahteen osaan:
 <br>
