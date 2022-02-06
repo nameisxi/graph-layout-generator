@@ -17,3 +17,8 @@ Calculated using coverage.py.
 
 ## Viikko 2:
 [Viikkoraportti 2](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/viikkoraportti2.md)
+
+## Viikko 3:
+[Viikkoraportti 3](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/viikkoraportti3.md)
+<br>
+[Testausdokumentti](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/testausdokumentti.md)
