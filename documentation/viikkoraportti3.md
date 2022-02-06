@@ -14,7 +14,7 @@ Pylintin käyttöä.
 
 ### Mikä jäi epäselväksi tai on tuottanut vaikeuksia?
 1. Miten laajaa testauksen tulee olla? Minulla on käytännössä vain 2 metodia joita pitää testata ja minulla on kumpaakin metodia kohtaan noin 3 testiä.
-2. Pitikö jokainen tietorakenne toteuttaa itse (Python dictionary & list tietorakenteet), vai koskiko ohje vain monimutkaisempia/epätavallisempia tietorakenteita, kuten esimerkiksi linkattuja listoja?
+2. Pitikö jokainen tietorakenne toteuttaa itse (käytan Pythonin dictionary & list tietorakenteita), vai koskiko ohje vain monimutkaisempia/epätavallisempia tietorakenteita, kuten esimerkiksi linkattuja listoja?
 
 ### Mitä teen seuraavaksi?
 Yritin parantaa yksikkötestauksen vankkuutta lisäämällä edge case testejä, sekä generoida empiirisiä testejä graafisessa muodossa.
