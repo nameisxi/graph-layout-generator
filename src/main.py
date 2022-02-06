@@ -1,6 +1,5 @@
 import sys
 import json
-from turtle import update
 
 from layout_generator import LayoutGenerator
 

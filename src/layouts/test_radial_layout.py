@@ -139,9 +139,9 @@ class TestRadialLayout(unittest.TestCase):
     }
     rl_3 = RadialLayout(graph_3, circumference=1)
 
-    def test_bfs(self):
-        self.assertEqual(self.rl_1.bfs({}), 0)
-        self.assertEqual(self.rl_2.bfs(
+    def test_get_leaf_count(self):
+        self.assertEqual(self.rl_1.get_leaf_count({}), 0)
+        self.assertEqual(self.rl_2.get_leaf_count(
             {
                 'id': 'root', 
                 'depth': 0, 
@@ -154,7 +154,7 @@ class TestRadialLayout(unittest.TestCase):
             }
         ), 3)
         
-        self.assertEqual(self.rl_3.bfs(
+        self.assertEqual(self.rl_3.get_leaf_count(
             {
                 'id': 'root', 
                 'depth': 0, 
@@ -173,7 +173,7 @@ class TestRadialLayout(unittest.TestCase):
                 ], 
             }
         ), 7)
-        self.assertEqual(self.rl_3.bfs(
+        self.assertEqual(self.rl_3.get_leaf_count(
             {
                 'id': 'child_2.1', 
                 'depth': 2, 
