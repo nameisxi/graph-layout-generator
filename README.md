@@ -5,6 +5,7 @@
 | Name             | Stmts | Miss | Cover |
 |------------------|-------|------|-------|
 | radial_layout.py | 48    | 0    | 100%  |
+| dictionary.py    | TODO  | TODO | TODO  |
 | TOTAL            | 48    | 0    | 100%  |
 
 <br>
