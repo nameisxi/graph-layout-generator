@@ -65,11 +65,9 @@ Esimerkki:
 ### Ohjelman toiminnan empiirisen testauksen tulosten esittäminen graafisessa muodossa.
 Ohjelman empiirinen testaus tarkoittaa käytännössä RadialLayout objektin get_coordinates() metodin testausta.
 <br>
-Tässä graafiset tulokset edellä mainituille esimerkkitesteille käyttäen verkkoja 1, 2, sekä 3:
-#### Verkko 1:
-TODO
+Tässä graafiset tulokset edellä mainituille esimerkkitesteille käyttäen verkkoja 2 ja 3 (verkko 1 on tyhjä, eikä algoritmi täten palauta sen olemattomille solmuille koordinaatteja):
 #### Verkko 2:
-TODO
+![](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/graph2-empirical.png?raw=true)
 #### Verkko 3:
-TODO
+![](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/graph3-empirical.png?raw=true)
 <br>
