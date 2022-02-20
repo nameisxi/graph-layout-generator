@@ -4,7 +4,6 @@
 | Name             | Stmts | Miss | Cover |
 |------------------|-------|------|-------|
 | radial_layout.py | 48    | 0    | 100%  |
-| dictionary.py    | TODO  | TODO | TODO  |
 | TOTAL            | 48    | 0    | 100%  |
 
 ### Mitä on testattu, miten tämä tehtiin?
@@ -66,9 +65,14 @@ Esimerkki:
 ### Ohjelman toiminnan empiirisen testauksen tulosten esittäminen graafisessa muodossa.
 Ohjelman empiirinen testaus tarkoittaa käytännössä RadialLayout objektin get_coordinates() metodin testausta.
 <br>
-Tässä graafiset tulokset edellä mainituille esimerkkitesteille käyttäen verkkoja 2 ja 3 (verkko 1 on tyhjä, eikä algoritmi täten palauta sen olemattomille solmuille koordinaatteja):
+Tässä graafiset tulokset edellä mainituille esimerkkitesteille käyttäen verkkoja 2 ja 3 (verkko 1 on tyhjä, eikä algoritmi täten palauta sen olemattomille solmuille koordinaatteja), sekä lisäksi muita isompia verkkoja joita ei yksikkötestauksella voi testata:
 #### Verkko 2:
 ![](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/graph2-empirical.png?raw=true)
 #### Verkko 3:
 ![](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/graph3-empirical.png?raw=true)
-<br>
+#### Verkko 4:
+![](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/graph4-empirical.png?raw=true)
+#### Verkko 5:
+![](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/graph5-empirical.png?raw=true)
+#### Verkko 6:
+![](https://github.com/nameisxi/graph-layout-generator/blob/master/documentation/graph6-empirical.png?raw=true)
