@@ -13,7 +13,7 @@ Ohjelman ydintoiminta on valmis ja olen keskittynyt suurten empiiristen testien 
 Verkon generoimista.
 
 ### Mikä jäi epäselväksi tai on tuottanut vaikeuksia?
-- 
+Näyttävätkö testausdokumentissa sijaitset empiiriset tulokseni tarpeeksi lupaavilta? Kirjoitin funktion jolla generoin 120-9000 solmuiset verkot, jotka syötin algoritmilleni, jonka jälkeen plottasin lopputulokset. 
 
 ### Mitä teen seuraavaksi?
 Kirjoitan toteutusdokumentin ja viimeistelen suorituskykytestit.
