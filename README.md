@@ -1,5 +1,8 @@
 # Graph Layout Generator
 
+## Ajo-ohjeet:
+Voit ajaa ohjelman navigoimalla projektin juurikansiossa olevaan alakansioon `/src` ja suorittamalla komennon `python3 main.py`.
+
 ## Test coverage:
 
 | Name             | Stmts | Miss | Cover |
