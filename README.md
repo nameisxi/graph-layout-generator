@@ -7,8 +7,8 @@ Voit ajaa ohjelman navigoimalla projektin juurikansiossa olevaan alakansioon `/s
 
 | Name             | Stmts | Miss | Cover |
 |------------------|-------|------|-------|
-| radial_layout.py | 48    | 0    | 100%  |
-| TOTAL            | 48    | 0    | 100%  |
+| radial_layout.py | 46    | 0    | 100%  |
+| TOTAL            | 46    | 0    | 100%  |
 
 <br>
 Calculated using coverage.py.
