@@ -13,7 +13,7 @@ Ohjelma on nyt miltein valmis.
 Opin vertaisarvioitavan ohjelman kautta uudesta tavasta lähestyä tekstin tiivistämistä toiselta näkökannalta.
 
 ### Mikä jäi epäselväksi tai on tuottanut vaikeuksia?
-Kaikki on muuten ok, mutta haluaisin kuulla mahdollisia korjausehdotuksia ennen viimeistä palautusta, mikäli sellaista on.
+Kaikki on muuten ok, mutta haluaisin kuulla mahdollisia korjausehdotuksia ennen viimeistä palautusta, mikäli sellaista on. Lisäksi, haluaisin tietää, että tuleeko myös Python projektin kohdalla ohjelmasta luoda Github release?
 
 ### Mitä teen seuraavaksi?
 Odotan palautetta ja työstän viimeisiä yksityiskohtia.
