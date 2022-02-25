@@ -1,4 +1,4 @@
-from layouts.radial_layout import RadialLayout
+from layouts import RadialLayout
 
 
 class LayoutGenerator:
