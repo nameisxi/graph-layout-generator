@@ -3,8 +3,8 @@
 
 | Name             | Stmts | Miss | Cover |
 |------------------|-------|------|-------|
-| radial_layout.py | 48    | 0    | 100%  |
-| TOTAL            | 48    | 0    | 100%  |
+| radial_layout.py | 46    | 0    | 100%  |
+| TOTAL            | 46    | 0    | 100%  |
 
 ## Mitä on testattu, miten tämä tehtiin?
 
@@ -46,9 +46,13 @@ Verkko 3 - syvä verkko:
 #### get_leaf_count() metodin syötteet
 `get_leaf_count()` metodia testataan toistaiseksi seuraavanlaisilla syötteillä:
 
-- Verkko 1: tyhjä solmu
-- Verkko 2: Verkko 2:n juuri solmu
-- Verkko 3: Verkko 3:n juuri solmu ja verkko 3:n solmu 2.1
+- tyhjä solmu
+- Verkko 2:n juuri solmu
+- Verkko 2:n solmu 1
+- Verkko 2:n solmu 3
+- Verkko 3:n juuri solmu
+- Verkko 3:n solmu 1
+- Verkko 3:n solmu 2.1
 
 ### Yksikkötestien toisto
 Kaikki testit voidaan toistaa navigoimalla /src/layouts/ kansioon ja ajamalle seuraava komento:
@@ -96,7 +100,9 @@ Ohjelman empiirinen testaus tarkoittaa käytännössä RadialLayout objektin `ge
 Samat visualisaatiot voi toistaa käyttämällä projektin juuressa olevaa `prototyping.ipynb` notebookkia, jota käytin myös algoritmin prototyyping kehitykseen. Se on kuitenkin lisätty bonuksena, enkä suunnitellut sitä muiden käytettäväksi, joten se ei ole dokumentoitu.
 
 <br>
+
 N-syvyisen verkon jolla on N-lapsisolmua per solmu voi generoida muuntamalla muuttujien `n_levels` ja `n_children` arvot. 
+
 <br>
 Esimerkkinä seuraavat arvot generoivat empiirisen esimerkin Verkko 2:
 
