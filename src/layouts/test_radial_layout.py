@@ -140,7 +140,10 @@ class TestRadialLayout(unittest.TestCase):
     rl_3 = RadialLayout(graph_3, circumference=1)
 
     def test_get_leaf_count(self):
+        # Graph 1 - empty graph
         self.assertEqual(self.rl_1.get_leaf_count({}), 0)
+
+        # Graph 2 - root node
         self.assertEqual(self.rl_2.get_leaf_count(
             {
                 'id': 'root', 
@@ -153,7 +156,26 @@ class TestRadialLayout(unittest.TestCase):
                 ], 
             }
         ), 3)
+        # Graph 2 - node 1
+        self.assertEqual(self.rl_2.get_leaf_count(
+            { 
+                'id': 'child_1',
+                'depth': 1,
+                'parent': 'root',
+                'children': []
+            }
+        ), 1)
+        # Graph 2 - node 3
+        self.assertEqual(self.rl_2.get_leaf_count(
+            { 
+                'id': 'child_3',
+                'depth': 1,
+                'parent': 'root',
+                'children': []
+            }
+        ), 1)
         
+        # Graph 3 - root
         self.assertEqual(self.rl_3.get_leaf_count(
             {
                 'id': 'root', 
@@ -173,6 +195,19 @@ class TestRadialLayout(unittest.TestCase):
                 ], 
             }
         ), 7)
+        # Graph 3 - node 1
+        self.assertEqual(self.rl_3.get_leaf_count(
+            { 
+                'id': 'child_1',
+                'depth': 1,
+                'parent': 'root',
+                'children': [
+                    {'id': 'child_1.1','depth': 2,'parent': 'child_1'},
+                    {'id': 'child_1.2','depth': 2,'parent': 'child_1'}
+                ]
+            }
+        ), 3)
+        # Graph 2 - node 2.1
         self.assertEqual(self.rl_3.get_leaf_count(
             {
                 'id': 'child_2.1', 
@@ -187,9 +222,11 @@ class TestRadialLayout(unittest.TestCase):
         ), 3)
 
     def test_get_coordinates(self):
+        # Graph 1
         self.assertEqual(self.rl_1.x_coordinates, [])
         self.assertEqual(self.rl_1.y_coordinates, [])
 
+        # Graph 2
         self.assertEqual(
             self.rl_2.x_coordinates, 
             [0, 0.07957747154594769, -0.15915494309189535, 0.07957747154594756]
@@ -199,6 +236,7 @@ class TestRadialLayout(unittest.TestCase):
             [0, 0.13783222385544802, 1.9490859162596877e-17, -0.13783222385544808]
         )
 
+        # Graph 3
         self.assertEqual(self.rl_3.x_coordinates, 
             [
                 0,0.035415306580572625,
