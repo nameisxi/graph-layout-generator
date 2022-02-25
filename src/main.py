@@ -26,19 +26,6 @@ def read_graph(file_path):
         print("While trying to read the graph, the following exception occured:")
         print(e)
 
-# def dict_to_dictionary(dict):
-#     """
-#     Turns a given Python dict object and turns it into a custom
-#     Dictionary object.
-#     Parameters:
-#         dict (dict): Dict object to be converted
-
-#     Returns:
-#         dictionary (Dictionary): custom Dictionary object containing the
-#         given dict objects key-value pair contents.
-#     """
-#     pass
-
 def main():
     # Get the path to the JSON file that defines the structure of the graph
     # that the user wants to generate a layout for. Then, read the graph.
