@@ -99,10 +99,13 @@ Samat visualisaatiot voi toistaa käyttämällä projektin juuressa olevaa `prot
 N-syvyisen verkon jolla on N-lapsisolmua per solmu voi generoida muuntamalla muuttujien `n_levels` ja `n_children` arvot. 
 <br>
 Esimerkkinä seuraavat arvot generoivat empiirisen esimerkin Verkko 2:
+
 <br>
+
 ```python
 n_levels = 1
 n_children = 3
 ```
+
 <br>
 
